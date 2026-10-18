@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Komorebi Tostaduría de Café — Estudio de Especialidad en Santiago, Chile</title>
+  <meta name="description" content="Komorebi es un atelier de café de especialidad en Santiago de Chile, dedicado a micro-lotes de origen, tostado de precisión y espacios de calma y contemplación.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="site-body">
+
+  <!-- Top Announcement Bar -->
+  <aside class="announcement-bar" aria-label="Actualización actual">
+    <div class="announcement-bar__container">
+      <span class="announcement-bar__badge">Micro-Lote de Temporada</span>
+      <p class="announcement-bar__text">Tueste fresco semanal: Etiopía Yirgacheffe Natural con notas a durazno blanco &amp; flor de jazmín.</p>
+      <a href="#roastery-beans" class="announcement-bar__link">Explorar granos <span aria-hidden="true">&rarr;</span></a>
+    </div>
+  </aside>
+
+  <!-- Primary Site Header -->
+  <header class="site-header" id="header">
+    <div class="site-header__container">
+      <a href="#" class="brand-logo" aria-label="Komorebi Coffee Roasters Inicio">
+        <span class="brand-logo__symbol" aria-hidden="true">木</span>
+        <span class="brand-logo__wrapper">
+          <span class="brand-logo__title">KOMOREBI</span>
+          <span class="brand-logo__subtitle">Tostaduría de Especialidad &bull; Santiago</span>
+        </span>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="navigation-bar" aria-label="Navegación principal">
+        <ul class="navigation-bar__list">
+          <li class="navigation-bar__item">
+            <a href="#about" class="navigation-bar__link">Filosofía</a>
+          </li>
+          <li class="navigation-bar__item">
+            <a href="#menu" class="navigation-bar__link">Carta de Café</a>
+          </li>
+          <li class="navigation-bar__item">
+            <a href="#roastery-beans" class="navigation-bar__link">Granos de Origen</a>
+          </li>
+          <li class="navigation-bar__item">
+            <a href="#space" class="navigation-bar__link">El Atelier</a>
+          </li>
+          <li class="navigation-bar__item">
+            <a href="#visit" class="navigation-bar__link">Visítanos</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Header Actions -->
+      <div class="site-header__actions">
+        <div class="status-indicator" title="Estado actual del atelier">
+          <span class="status-indicator__dot status-indicator__dot--active"></span>
+          <span class="status-indicator__text">Abierto &bull; Barra Activa</span>
+        </div>
+        <a href="#menu" class="action-btn action-btn--primary action-btn--compact">Pedir en Barra</a>
+        
+        <!-- Mobile Navigation Toggle -->
+        <button class="mobile-toggle" id="mobile-toggle" aria-expanded="false" aria-controls="mobile-nav" aria-label="Abrir menú de navegación">
+          <span class="mobile-toggle__line"></span>
+          <span class="mobile-toggle__line"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer Navigation -->
+    <div class="mobile-drawer" id="mobile-nav" aria-hidden="true">
+      <nav class="mobile-drawer__nav">
+        <ul class="mobile-drawer__list">
+          <li class="mobile-drawer__item"><a href="#about" class="mobile-drawer__link">Filosofía</a></li>
+          <li class="mobile-drawer__item"><a href="#menu" class="mobile-drawer__link">Carta de Café</a></li>
+          <li class="mobile-drawer__item"><a href="#roastery-beans" class="mobile-drawer__link">Granos de Origen</a></li>
+          <li class="mobile-drawer__item"><a href="#space" class="mobile-drawer__link">El Atelier</a></li>
+          <li class="mobile-drawer__item"><a href="#visit" class="mobile-drawer__link">Visítanos</a></li>
+        </ul>
+        <div class="mobile-drawer__footer">
+          <a href="#menu" class="action-btn action-btn--primary action-btn--full">Pedir en Barra</a>
+          <p class="mobile-drawer__hours">Lunes a Viernes 07:30 &ndash; 19:30 | Sáb y Dom 08:30 &ndash; 20:00<br>Av. Italia 1380, Providencia, Santiago</p>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="site-main">
+
+    <!-- Hero Section -->
+    <section class="hero-section" aria-labelledby="hero-title">
+      <div class="hero-section__container">
+        <div class="hero-section__content">
+          <span class="hero-section__eyebrow">Filtrados Artesanales &amp; Espresso de Origen</span>
+          <h1 id="hero-title" class="hero-section__title">
+            Creado con intención. <br>
+            <em class="hero-section__emphasis">Tostado para la pausa.</em>
+          </h1>
+          <p class="hero-section__description">
+            Honramos el ritual sosegado del café. Trabajamos en trato directo con pequeños caficultores de Latinoamérica y África, tostando en pequeños lotes en Santiago y extrayendo claridad en cada taza de greda y cerámica.
+          </p>
+          <div class="hero-section__actions">
+            <a href="#menu" class="action-btn action-btn--primary">Explorar Carta</a>
+            <a href="#visit" class="action-btn action-btn--outline">Cómo Llegar</a>
+          </div>
+          <div class="hero-section__meta">
+            <div class="meta-metric">
+              <span class="meta-metric__number">88.5+</span>
+              <span class="meta-metric__label">Puntaje SCA Promedio</span>
+            </div>
+            <div class="meta-metric__divider" aria-hidden="true"></div>
+            <div class="meta-metric">
+              <span class="meta-metric__number">100%</span>
+              <span class="meta-metric__label">Comercio Justo Directo</span>
+            </div>
+            <div class="meta-metric__divider" aria-hidden="true"></div>
+            <div class="meta-metric">
+              <span class="meta-metric__number">Cero</span>
+              <span class="meta-metric__label">Plásticos de un solo uso</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-section__visual">
+          <div class="hero-card">
+            <figure class="hero-card__figure">
+              <img 
+                src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1200&q=80" 
+                alt="Ritual minimalista de extracción de café filtrado con tetera de cuello de ganso" 
+                class="hero-card__image"
+                loading="eager"
+              >
+              <figcaption class="hero-card__caption">
+                <span class="hero-card__tag">En Barra de Filtrado Lento</span>
+                <span class="hero-card__detail">Colombia Finca El Paraíso &bull; Shock térmico anaeróbico</span>
+              </figcaption>
+            </figure>
+            
+            <div class="floating-badge floating-badge--top-right">
+              <span class="floating-badge__icon" aria-hidden="true">&#9749;</span>
+              <div class="floating-badge__info">
+                <strong class="floating-badge__title">Extracción del Día</strong>
+                <span class="floating-badge__sub">TDS 1.38% &bull; 93.5&deg;C</span>
+              </div>
+            </div>
+
+            <div class="floating-badge floating-badge--bottom-left">
+              <span class="floating-badge__icon" aria-hidden="true">&#10022;</span>
+              <div class="floating-badge__info">
+                <strong class="floating-badge__title">Perfil de Tueste</strong>
+                <span class="floating-badge__sub">Tueste Nórdico Claro &bull; En Santiago</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Philosophy & Craft Pillars -->
+    <section class="philosophy-section" id="about" aria-labelledby="philosophy-title">
+      <div class="philosophy-section__container">
+        <header class="section-header">
+          <span class="section-header__tag">El Manifiesto</span>
+          <h2 id="philosophy-title" class="section-header__title">La sencillez como máxima sofisticación</h2>
+          <p class="section-header__lead">Despejamos el ruido para revelar el terroir de cada varietal en el corazón de Santiago. Sin jarabes industriales ni apuros: solo balance, agua calibrada y trazabilidad honesta.</p>
+        </header>
+
+        <div class="philosophy-grid">
+          <article class="pillar-card">
+            <div class="pillar-card__icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2a10 10 0 0 0-7.54 16.54L12 22l7.54-3.46A10 10 0 0 0 12 2z"/>
+                <path d="M12 7v5l3 3"/>
+              </svg>
+            </div>
+            <span class="pillar-card__number">01</span>
+            <h3 class="pillar-card__title">Trato Directo con el Origen</h3>
+            <p class="pillar-card__description">
+              Viajamos periódicamente a Huila, Tarrazú, Cusco y Sidama para catar lotes en finca y pagar 3&times; sobre el valor base de mercado a familias caficultoras tradicionales.
+            </p>
+          </article>
+
+          <article class="pillar-card">
+            <div class="pillar-card__icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="9"/>
+                <path d="M12 3v18"/>
+                <path d="M3 12h18"/>
+                <circle cx="12" cy="12" r="4"/>
+              </svg>
+            </div>
+            <span class="pillar-card__number">02</span>
+            <h3 class="pillar-card__title">Tueste Nórdico de Precisión</h3>
+            <p class="pillar-card__description">
+              Tostamos semanalmente en Providencia con tambor de convección y telemetría térmica. Desarrollamos la dulzura natural respetando la acidez brillante y las notas florales.
+            </p>
+          </article>
+
+          <article class="pillar-card">
+            <div class="pillar-card__icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M17 8h1a4 4 0 1 1 0 8h-1"/>
+                <path d="M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4Z"/>
+                <line x1="6" y1="2" x2="6" y2="4"/>
+                <line x1="10" y1="2" x2="10" y2="4"/>
+                <line x1="14" y1="2" x2="14" y2="4"/>
+              </svg>
+            </div>
+            <span class="pillar-card__number">03</span>
+            <h3 class="pillar-card__title">Alquimia de Agua de Cordillera</h3>
+            <p class="pillar-card__description">
+              Purificamos el agua de Santiago mediante ósmosis inversa y la re-mineralizamos a 120 ppm TDS con predominio de magnesio para acentuar notas de frutas de carozo.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tasting Menu Section -->
+    <section class="menu-section" id="menu" aria-labelledby="menu-title">
+      <div class="menu-section__container">
+        <header class="section-header section-header--centered">
+          <span class="section-header__tag">Barra de Degustación</span>
+          <h2 id="menu-title" class="section-header__title">Carta de Bebidas &amp; Pastelería de Autor</h2>
+          <p class="section-header__lead">Cada preparación es pesada con precisión, calibrada al inicio de cada jornada y presentada en piezas de cerámica de gres torneadas en Chile.</p>
+        </header>
+
+        <!-- Menu Category Filter Tabs -->
+        <div class="category-tabs" role="tablist" aria-label="Categorías del menú">
+          <button class="category-tabs__button category-tabs__button--active" role="tab" aria-selected="true" data-filter="all">Toda la Carta</button>
+          <button class="category-tabs__button" role="tab" aria-selected="false" data-filter="espresso">Espresso &amp; Leche</button>
+          <button class="category-tabs__button" role="tab" aria-selected="false" data-filter="pour-over">Filtrados V60 &amp; Batch</button>
+          <button class="category-tabs__button" role="tab" aria-selected="false" data-filter="signatures">Cold Brew &amp; Especiales</button>
+          <button class="category-tabs__button" role="tab" aria-selected="false" data-filter="bakery">Pastelería Artesanal</button>
+        </div>
+
+        <!-- Menu Grid -->
+        <div class="menu-grid" id="menu-grid">
+          
+          <!-- Item 1: Pour Over -->
+          <article class="menu-card" data-category="pour-over">
+            <div class="menu-card__header">
+              <div class="menu-card__title-group">
+                <h3 class="menu-card__name">Geisha Reserva V60</h3>
+                <span class="menu-card__badge menu-card__badge--featured">Lote Escaso</span>
+              </div>
+              <span class="menu-card__price">$6.800</span>
+            </div>
+            <p class="menu-card__description">Panamá Hacienda La Esmeralda, proceso lavado. Perfume intensamente floral a jazmín, infusión de té bergamota y néctar de durazno blanquillo.</p>
+            <div class="menu-card__tags">
+              <span class="flavor-chip">Flor de Jazmín</span>
+              <span class="flavor-chip">Durazno Blanquillo</span>
+              <span class="flavor-chip">Bergamota</span>
+            </div>
+          </article>
+
+          <!-- Item 2: Espresso -->
+          <article class="menu-card" data-category="espresso">
+            <div class="menu-card__header">
+              <div class="menu-card__title-group">
+                <h3 class="menu-card__name">Flat White</h3>
+                <span class="menu-card__badge">Origen Único</span>
+              </div>
+              <span class="menu-card__price">$3.800</span>
+            </div>
+            <p class="menu-card__description">Doble shot de ristretto sobre microespuma sedosa de leche entera de pastoreo o bebida vegetal de avena chilena. Final aterciopelado.</p>
+            <div class="menu-card__tags">
+              <span class="flavor-chip">Chocolate de Leche</span>
+              <span class="flavor-chip">Avellana Tostada</span>
+              <span class="flavor-chip">Miel de Quillay</span>
+            </div>
+          </article>
+
+          <!-- Item 3: Espresso -->
+          <article class="menu-card" data-category="espresso">
+            <div class="menu-card__header">
+              <div class="menu-card__title-group">
+                <h3 class="menu-card__name">Cortado Tradicional</h3>
+              </div>
+              <span class="menu-card__price">$3.200</span>
+            </div>
+            <p class="menu-card__description">Proporción 1:1 de espresso intenso y leche suavemente vaporizada, servido en vaso Gibraltar. Redondo, balanceado y persistente.</p>
+            <div class="menu-card__tags">
+              <span class="flavor-chip">Toffee</span>
+              <span class="flavor-chip">Praliné de Almendras</span>
+            </div>
+          </article>
+
+          <!-- Item 4: Signatures -->
+          <article class="menu-card" data-category="signatures">
+            <div class="menu-card__header">
+              <div class="menu-card__title-group">
+                <h3 class="menu-card__name">Cold Brew Tónica &amp; Murta</h3>
+                <span class="menu-card__badge menu-card__badge--seasonal">Temporada</span>
+              </div>
+              <span class="menu-card__price">$4.600</span>
+            </div>
+            <p class="menu-card__description">Maceración en frío de 18 horas infusionada con reducción cítrica de pomelo, tónica botánica artesanal y un toque aromático de bayas de murta nativa.</p>
+            <div class="menu-card__tags">
+              <span class="flavor-chip">Cítricos del Elqui</span>
+              <span class="flavor-chip">Tónica Botánica</span>
+              <span class="flavor-chip">Nibs de Cacao</span>
+            </div>
+          </article>
+
+          <!-- Item 5: Pour Over -->
+          <article class="menu-card" data-category="pour-over">
+            <div class="menu-card__header">
+              <div class="menu-card__title-group">
+                <h3 class="menu-card__name">Etiopía Guji Anaeróbico</h3>
+              </div>
+              <span class="menu-card__price">$5.200</span>
+            </div>
+            <p class="menu-card__description">Fermentado 72 horas en tanques sellados de acero. Explosión frutal brillante con notas a frutilla silvestre, arándanos confitados y licor dulce de cacao.</p>
+            <div class="menu-card__tags">
+              <span class="flavor-chip">Frutilla Silvestre</span>
+              <span class="flavor-chip">Arándano</span>
+              <span class="flavor-chip">Limón Meyer</span>
+            </div>
+          </article>
+
+          <!-- Item 6: Signatures -->
+          <article class="menu-card" data-category="signatures">
+            <div class="menu-card__header">
+              <div class="menu-card__title-group">
+                <h3 class="menu-card__name">Latte Caramelo &amp; Sal de Cáhuil</h3>
+              </div>
+              <span class="menu-card__price">$4.800</span>
+            </div>
+            <p class="menu-card__description">Espresso infusionado con toffee casero de dátiles, escamas de sal de mar de Cáhuil y leche de avena tibia, coronado con nuez moscada fresca.</p>
+            <div class="menu-card__tags">
+              <span class="flavor-chip">Caramelo de Dátil</span>
+              <span class="flavor-chip">Sal de Cáhuil</span>
+              <span class="flavor-chip">Corteza de Canela</span>
+            </div>
+          </article>
+
+          <!-- Item 7: Bakery -->
+          <article class="menu-card" data-category="bakery">
+            <div class="menu-card__header">
+              <div class="menu-card__title-group">
+                <h3 class="menu-card__name">Bollo Danés de Cardamomo</h3>
+                <span class="menu-card__badge">Horneo Diario</span>
+              </div>
+              <span class="menu-card__price">$3.600</span>
+            </div>
+            <p class="menu-card__description">Brioche hojaldrado con mantequilla de campo, semillas de cardamomo verde machacadas en mortero, cristales de azúcar morena y ralladura de naranja.</p>
+            <div class="menu-card__tags">
+              <span class="flavor-chip">Cardamomo Verde</span>
+              <span class="flavor-chip">Hojaldre Crujiente</span>
+              <span class="flavor-chip">Cítricos</span>
+            </div>
+          </article>
+
+          <!-- Item 8: Bakery -->
+          <article class="menu-card" data-category="bakery">
+            <div class="menu-card__header">
+              <div class="menu-card__title-group">
+                <h3 class="menu-card__name">Financier de Avellana &amp; Miso</h3>
+              </div>
+              <span class="menu-card__price">$3.200</span>
+            </div>
+            <p class="menu-card__description">Bizcocho tradicional francés elaborado con harina de almendras y avellana chilena tostada, mantequilla avellanada y un toque de pasta de miso blanco.</p>
+            <div class="menu-card__tags">
+              <span class="flavor-chip">Avellana Chilena</span>
+              <span class="flavor-chip">Miso Shiro</span>
+              <span class="flavor-chip">Vainilla</span>
+            </div>
+          </article>
+
+        </div>
+
+        <div class="menu-section__footnote">
+          <p class="menu-section__note">&ast; Todas las bebidas con leche pueden solicitarse con bebida vegetal de avena o almendra sin costo extra. Contamos con café descafeinado de proceso natural al agua (Swiss Water Process).</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Single Origin Retail Beans Section -->
+    <section class="beans-section" id="roastery-beans" aria-labelledby="beans-title">
+      <div class="beans-section__container">
+        <header class="section-header">
+          <span class="section-header__tag">Café en Grano Fresco</span>
+          <h2 id="beans-title" class="section-header__title">Lleva el Atelier a Tu Hogar</h2>
+          <p class="section-header__lead">Tostado localmente en Santiago cada lunes y jueves en bolsas compostables de 250g con válvula desgasificadora y atmósfera controlada.</p>
+        </header>
+
+        <div class="beans-grid">
+          
+          <!-- Product Card 1 -->
+          <article class="bean-card">
+            <div class="bean-card__media">
+              <img 
+                src="https://images.unsplash.com/photo-1587734195503-904fca47e0e9?auto=format&fit=crop&w=800&q=80" 
+                alt="Bolsa minimalista de café de especialidad sobre piedra natural" 
+                class="bean-card__image"
+                loading="lazy"
+              >
+              <span class="bean-card__process">Lavado &bull; 1.950 msnm</span>
+            </div>
+            <div class="bean-card__body">
+              <div class="bean-card__origin">Gedeo, Etiopía</div>
+              <h3 class="bean-card__title">Yirgacheffe Chelbessa</h3>
+              <p class="bean-card__tasting-notes">Bergamota, durazno confitado, flores blancas de jazmín y dulzor meloso.</p>
+              <div class="bean-card__footer">
+                <span class="bean-card__price">$16.900 <span class="bean-card__weight">/ 250g</span></span>
+                <button class="action-btn action-btn--secondary action-btn--compact js-cart-trigger" data-item="Yirgacheffe Chelbessa">Añadir a Bolsa</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Product Card 2 -->
+          <article class="bean-card">
+            <div class="bean-card__media">
+              <img 
+                src="https://images.unsplash.com/photo-1611854779393-1b2da9d400fe?auto=format&fit=crop&w=800&q=80" 
+                alt="Granos de café de tueste claro de especialidad" 
+                class="bean-card__image"
+                loading="lazy"
+              >
+              <span class="bean-card__process">Fermentación Anaeróbica &bull; 1.800 msnm</span>
+            </div>
+            <div class="bean-card__body">
+              <div class="bean-card__origin">Cauca, Colombia</div>
+              <h3 class="bean-card__title">Finca El Paraíso Ciruela Roja</h3>
+              <p class="bean-card__tasting-notes">Almíbar de ciruela roja, maracuyá maduro, nibs de cacao amargo y cuerpo sedoso.</p>
+              <div class="bean-card__footer">
+                <span class="bean-card__price">$18.500 <span class="bean-card__weight">/ 250g</span></span>
+                <button class="action-btn action-btn--secondary action-btn--compact js-cart-trigger" data-item="Finca El Paraíso">Añadir a Bolsa</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Product Card 3 -->
+          <article class="bean-card">
+            <div class="bean-card__media">
+              <img 
+                src="https://images.unsplash.com/photo-1559056199-641a0ac8b55e?auto=format&fit=crop&w=800&q=80" 
+                alt="Goteo en método de vertido V60 sobre jarra de vidrio" 
+                class="bean-card__image"
+                loading="lazy"
+              >
+              <span class="bean-card__process">Proceso Honey &bull; 1.650 msnm</span>
+            </div>
+            <div class="bean-card__body">
+              <div class="bean-card__origin">Tarrazú, Costa Rica</div>
+              <h3 class="bean-card__title">La Candelilla Honey Estate</h3>
+              <p class="bean-card__tasting-notes">Manzana roja crujiente, nuez caramelizada, azúcar de caña y azahar.</p>
+              <div class="bean-card__footer">
+                <span class="bean-card__price">$15.900 <span class="bean-card__weight">/ 250g</span></span>
+                <button class="action-btn action-btn--secondary action-btn--compact js-cart-trigger" data-item="La Candelilla Honey">Añadir a Bolsa</button>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Atelier Space & Gallery Section -->
+    <section class="space-section" id="space" aria-labelledby="space-title">
+      <div class="space-section__container">
+        <div class="space-section__layout">
+          <div class="space-section__content">
+            <span class="section-header__tag">Arquitectura &amp; Espacio</span>
+            <h2 id="space-title" class="space-section__title">Diseñado para la calma en medio de la ciudad</h2>
+            <p class="space-section__text">
+              Emplazado en el patrimonial Barrio Italia, nuestro espacio conjuga muros de hormigón visto, maderas nativas de roble reciclado y paneles acústicos de lino crudo. Un refugio de sosiego frente al ritmo vertiginoso de Santiago, bañado por luz natural y el rumor constante del agua al filtrar.
+            </p>
+            <div class="space-features">
+              <div class="space-features__item">
+                <strong class="space-features__title">Aislamiento Acústico Consciente</strong>
+                <p class="space-features__text">Tratamiento fonoabsorbente que amortigua el sonido exterior para conversar en voz baja o disfrutar de la lectura.</p>
+              </div>
+              <div class="space-features__item">
+                <strong class="space-features__title">Barra Abierta y Cercana</strong>
+                <p class="space-features__text">Diseño diáfano sin barreras para conversar con nuestros baristas y apreciar el paso a paso de cada extracción.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="space-section__gallery">
+            <figure class="gallery-tile gallery-tile--main">
+              <img 
+                src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1000&q=80" 
+                alt="Interior diáfano y luminoso de cafetería minimalista con muebles de madera clara" 
+                class="gallery-tile__img"
+                loading="lazy"
+              >
+              <figcaption class="gallery-tile__caption">Barra principal con grupos de extracción bajo mesón en Barrio Italia</figcaption>
+            </figure>
+            <figure class="gallery-tile gallery-tile--secondary">
+              <img 
+                src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=800&q=80" 
+                alt="Taza de gres hecha a mano con café recién filtrado sobre mesa de piedra" 
+                class="gallery-tile__img"
+                loading="lazy"
+              >
+            </figure>
+            <figure class="gallery-tile gallery-tile--tertiary">
+              <img 
+                src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=800&q=80" 
+                alt="Rincón de lectura bañado por luz solar en cafetería" 
+                class="gallery-tile__img"
+                loading="lazy"
+              >
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Visit & Hours Section -->
+    <section class="visit-section" id="visit" aria-labelledby="visit-title">
+      <div class="visit-section__container">
+        <div class="visit-card">
+          <div class="visit-card__info">
+            <span class="section-header__tag">Encuéntranos</span>
+            <h2 id="visit-title" class="visit-card__heading">Ven a compartir un café con nosotros</h2>
+            <p class="visit-card__sub">No se requiere reserva para la barra de espresso ni métodos de vertido. Para sesiones guiadas de cata de 5 orígenes, reserva con 48 horas de anticipación.</p>
+
+            <div class="info-block-list">
+              <div class="info-block">
+                <span class="info-block__label">Ubicación</span>
+                <address class="info-block__value">
+                  Av. Italia 1380, Barrio Italia<br>
+                  Providencia, Santiago &bull; Metro Santa Isabel
+                </address>
+              </div>
+
+              <div class="info-block">
+                <span class="info-block__label">Horarios de Barra</span>
+                <div class="info-block__value">
+                  <p><strong>Lunes a Viernes:</strong> 07:30 &ndash; 19:30 hrs</p>
+                  <p><strong>Sábado y Domingo:</strong> 08:30 &ndash; 20:00 hrs</p>
+                </div>
+              </div>
+
+              <div class="info-block">
+                <span class="info-block__label">Contacto &amp; Catas Privadas</span>
+                <p class="info-block__value">
+                  <a href="mailto:hola@komorebi.cl" class="info-block__link">hola@komorebi.cl</a><br>
+                  <a href="tel:+56984521920" class="info-block__link">+56 9 8452 1920</a>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="visit-card__form-wrapper">
+            <div class="newsletter-box">
+              <h3 class="newsletter-box__title">El Extracto Dominical</h3>
+              <p class="newsletter-box__text">Únete a más de 5.200 entusiastas en Chile. Compartimos lanzamientos de micro-lotes privados, recetas para cafetera de hogar y notas de cosecha.</p>
+              
+              <form class="newsletter-form" id="newsletter-form" novalidate>
+                <div class="newsletter-form__group">
+                  <label for="newsletter-email" class="newsletter-form__label">Correo electrónico</label>
+                  <div class="newsletter-form__input-wrapper">
+                    <input 
+                      type="email" 
+                      id="newsletter-email" 
+                      name="email" 
+                      placeholder="tu.nombre@correo.cl" 
+                      class="newsletter-form__input" 
+                      required
+                    >
+                    <button type="submit" class="action-btn action-btn--primary newsletter-form__button">Suscribirse</button>
+                  </div>
+                  <span class="newsletter-form__feedback" id="newsletter-feedback" aria-live="polite"></span>
+                </div>
+                <p class="newsletter-form__disclaimer">Cero spam. Cancela tu suscripción en cualquier momento con un solo clic.</p>
+              </form>
+
+              <div class="tasting-event-badge">
+                <div class="tasting-event-badge__date">
+                  <span class="tasting-event-badge__day">24</span>
+                  <span class="tasting-event-badge__month">OCT</span>
+                </div>
+                <div class="tasting-event-badge__info">
+                  <strong class="tasting-event-badge__heading">Próxima Cata Abierta</strong>
+                  <span class="tasting-event-badge__sub">Cata a ciegas: Varietales Geisha vs Bourbon de Origen (11:00 hrs)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="site-footer__container">
+      <div class="site-footer__main">
+        <div class="site-footer__brand">
+          <a href="#" class="brand-logo brand-logo--light" aria-label="Komorebi Coffee Roasters">
+            <span class="brand-logo__symbol" aria-hidden="true">木</span>
+            <span class="brand-logo__wrapper">
+              <span class="brand-logo__title">KOMOREBI</span>
+              <span class="brand-logo__subtitle">Atelier de Café &bull; Santiago</span>
+            </span>
+          </a>
+          <p class="site-footer__mission">
+            Inspirados en la luz que se filtra entre los cafetales. Comprometidos con el tueste honesto y la contemplación en cada taza desde Santiago de Chile.
+          </p>
+        </div>
+
+        <nav class="site-footer__nav" aria-label="Navegación pie de página">
+          <div class="footer-column">
+            <h4 class="footer-column__heading">Experiencia</h4>
+            <ul class="footer-column__list">
+              <li><a href="#menu" class="footer-column__link">Carta de Barra</a></li>
+              <li><a href="#roastery-beans" class="footer-column__link">Granos de Especialidad</a></li>
+              <li><a href="#space" class="footer-column__link">Arquitectura &amp; Espacio</a></li>
+              <li><a href="#visit" class="footer-column__link">Reservar Mesa de Cata</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h4 class="footer-column__heading">Orígenes</h4>
+            <ul class="footer-column__list">
+              <li><a href="#" class="footer-column__link">Etiopía Sidama</a></li>
+              <li><a href="#" class="footer-column__link">Colombia Huila</a></li>
+              <li><a href="#" class="footer-column__link">Costa Rica Tarrazú</a></li>
+              <li><a href="#" class="footer-column__link">Índice de Trazabilidad</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h4 class="footer-column__heading">Comunidad</h4>
+            <ul class="footer-column__list">
+              <li><a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="footer-column__link">Instagram &nearr;</a></li>
+              <li><a href="https://spotify.com" target="_blank" rel="noopener noreferrer" class="footer-column__link">Playlist del Atelier &nearr;</a></li>
+              <li><a href="https://youtube.com" target="_blank" rel="noopener noreferrer" class="footer-column__link">Guías de Extracción &nearr;</a></li>
+              <li><a href="mailto:prensa@komorebi.cl" class="footer-column__link">Prensa &amp; Colaboraciones</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+      <div class="site-footer__bottom">
+        <p class="site-footer__copyright">&copy; <span id="current-year">2026</span> Komorebi Tostaduría de Café SpA. Providencia, Santiago de Chile.</p>
+        <div class="site-footer__legal">
+          <a href="#" class="site-footer__legal-link">Política de Privacidad</a>
+          <span class="site-footer__separator">&bull;</span>
+          <a href="#" class="site-footer__legal-link">Términos del Servicio</a>
+          <span class="site-footer__separator">&bull;</span>
+          <a href="#" class="site-footer__legal-link">Transparencia de Cadena</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification element for micro-interactions -->
+  <aside class="toast-alert" id="toast-alert" role="status" aria-live="polite">
+    <span class="toast-alert__icon" aria-hidden="true">&#10003;</span>
+    <span class="toast-alert__text" id="toast-message">Producto añadido a tu bolsa de café.</span>
+  </aside>
+
+  <script src="app.js"></script>
+</body>
+</html>
