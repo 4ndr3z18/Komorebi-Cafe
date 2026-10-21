@@ -17,6 +17,28 @@ Sitio web *one-page* de alto detalle visual construido con HTML5 semántico, CSS
 
 ---
 
+## 🖼️ Vista previa
+
+**Portada — escritorio**
+
+![Portada de Komorebi: "Creado con intención. Tostado para la pausa." sobre fondo lino](docs/preview-hero.jpg)
+
+**Carta interactiva y granos de origen**
+
+| Carta con pestañas de filtrado | Micro-lotes de temporada |
+| --- | --- |
+| ![Carta de bebidas con las pestañas Toda la Carta, Espresso & Leche, Filtrados V60 & Batch, Cold Brew & Especiales y Pastelería Artesanal](docs/preview-carta.jpg) | ![Tres bolsas de café de Etiopía, Colombia y Costa Rica con su proceso y altitud](docs/preview-granos.jpg) |
+
+**Arquitectura & espacio**
+
+![Sección El Atelier: "Diseñado para la calma en medio de la ciudad" con fotografías del local](docs/preview-atelier.jpg)
+
+**Vista móvil**
+
+<img src="docs/preview-mobile.jpg" width="320" alt="Vista móvil de la portada con el menú hamburguesa" />
+
+---
+
 ## ✨ Sobre el proyecto
 
 Komorebi es la web de una tostaduría de café de especialidad: micro-lotes de origen, tueste nórdico de precisión y un espacio pensado para la contemplación. El sitio traduce esa idea a una interfaz de **minimalismo cálido** (*Japandi* adaptado a Santiago), con una carta interactiva, granos de origen, arquitectura del local y una invitación clara a visitarlo.
@@ -103,6 +125,7 @@ Komorebi-Cafe/
 ├── index.html      # Estructura completa del sitio (one-page)
 ├── styles.css      # Tokens, reset, layout y componentes BEM (~1.600 líneas)
 ├── app.js          # Interactividad: scroll, drawer, filtros, toast y newsletter
+├── docs/           # Capturas de pantalla usadas en este README
 ├── .gitattributes  # Normalización de finales de línea
 └── README.md
 ```
@@ -123,8 +146,8 @@ Komorebi-Cafe/
 
 Ideas para seguir iterando:
 
+- [x] Añadir capturas de pantalla al README.
 - [ ] Publicar una demo en vivo con GitHub Pages.
-- [ ] Añadir capturas de pantalla al README.
 - [ ] Carrito con persistencia (`localStorage`) para que «Añadir a Bolsa» sea una compra real.
 - [ ] Formulario de newsletter conectado a un servicio real.
 - [ ] Mapa embebido de la ubicación en la sección Visítanos.
